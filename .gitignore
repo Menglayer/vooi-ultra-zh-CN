@@ -1,0 +1,29 @@
+# Local secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secrets*
+
+# Development dependencies, captures and runtime artifacts
+node_modules/
+work/
+source/
+.cache/
+coverage/
+playwright-report/
+test-results/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
